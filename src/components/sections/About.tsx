@@ -3,8 +3,8 @@ import portrait from "@/assets/hero-portrait.jpg";
 import SectionHeading from "@/components/SectionHeading";
 
 const stats = [
-  { label: "Projects", value: 24, suffix: "+" },
-  { label: "Skills", value: 18, suffix: "" },
+  { label: "Projects", value: 1, suffix: "+" },
+  { label: "Certificates", value: 2, suffix: "" },
   { label: "Learning", value: 99, suffix: "%" },
 ];
 
