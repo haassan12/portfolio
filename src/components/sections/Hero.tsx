@@ -24,8 +24,8 @@ const Hero = () => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-4">
-      <div className="container max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <section id="home" className="relative min-h-screen flex items-center justify-center pt-28 pb-16 px-4 sm:px-6">
+      <div className="container max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Left: Boot terminal + name */}
         <div className="order-2 lg:order-1">
           <div className="glass rounded-xl p-5 mb-8 font-mono text-sm sm:text-base relative overflow-hidden">
@@ -58,7 +58,7 @@ const Hero = () => {
             <p className="font-mono text-xs sm:text-sm text-primary mb-3 tracking-widest uppercase">
               [USER_PROFILE_LOADED]
             </p>
-            <h1 className="font-display font-black text-4xl sm:text-5xl lg:text-7xl leading-[1.05] mb-4">
+            <h1 className="font-display font-black text-3xl sm:text-5xl lg:text-7xl leading-[1.05] mb-4 break-words">
               Hi, I'm{" "}
               <span className="gradient-text glitch inline-block">Muhammad Hassan</span>
             </h1>
@@ -99,7 +99,7 @@ const Hero = () => {
             <div className="absolute inset-0 -m-8 rounded-full bg-primary/20 blur-3xl animate-pulse-glow" />
             <div className="absolute inset-0 -m-4 rounded-2xl bg-gradient-glow blur-2xl" />
 
-            <div className="holo-frame w-[280px] sm:w-[340px] lg:w-[380px] aspect-[3/4] relative">
+            <div className="holo-frame w-[240px] sm:w-[320px] lg:w-[380px] aspect-[3/4] relative">
               <div className="relative w-full h-full rounded-[14px] overflow-hidden bg-card">
                 <img
                   src={portrait}
