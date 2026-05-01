@@ -53,7 +53,7 @@ const TypeLine = ({ year, text, delay }: { year: string; text: string; delay: nu
 
 const Experience = () => {
   return (
-    <section id="experience" className="relative py-24 px-4">
+    <section id="experience" className="relative py-16 sm:py-24 px-4 sm:px-6">
       <div className="container max-w-4xl mx-auto">
         <SectionHeading code="05" title="System Logs" subtitle="Chronological trace" />
 

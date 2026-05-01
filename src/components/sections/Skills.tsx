@@ -31,7 +31,7 @@ const modules = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="relative py-24 px-4">
+    <section id="skills" className="relative py-16 sm:py-24 px-4 sm:px-6">
       <div className="container max-w-6xl mx-auto">
         <SectionHeading code="03" title="AI Modules" subtitle="Capability matrix" />
 

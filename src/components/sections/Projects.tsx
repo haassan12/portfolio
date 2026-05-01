@@ -47,7 +47,7 @@ const Projects = () => {
   const filtered = filter === "All" ? projects : projects.filter((p) => p.category === filter);
 
   return (
-    <section id="projects" className="relative py-24 px-4">
+    <section id="projects" className="relative py-16 sm:py-24 px-4 sm:px-6">
       <div className="container max-w-6xl mx-auto">
         <SectionHeading code="04" title="Lab Projects" subtitle="Experiment archive" />
 
