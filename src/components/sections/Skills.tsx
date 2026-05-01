@@ -7,25 +7,25 @@ const modules = [
     icon: Code2,
     name: "Frontend",
     color: "primary",
-    items: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion", "Three.js"],
+    items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Bootstrap"],
   },
   {
     icon: Database,
     name: "Backend",
     color: "secondary",
-    items: ["Python", "Django", "FastAPI", "Node.js", "PostgreSQL", "REST / GraphQL"],
+    items: ["Python", "Django", "Django REST Framework", "JWT Auth", "REST APIs"],
   },
   {
     icon: Wrench,
-    name: "Tools",
+    name: "Database & Tools",
     color: "primary",
-    items: ["Git", "Docker", "Vercel", "AWS", "Figma", "Linux"],
+    items: ["MySQL", "Firebase", "Git", "GitHub"],
   },
   {
     icon: Brain,
-    name: "AI",
+    name: "UI / UX & Security",
     color: "secondary",
-    items: ["LLMs", "LangChain", "OpenAI API", "Vector DBs", "RAG", "Agents"],
+    items: ["Figma", "Wireframing", "Prototyping", "Ethical Hacking", "Pen Testing"],
   },
 ];
 
