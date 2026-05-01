@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 
 type Category = "All" | "Web" | "AI" | "Design";
