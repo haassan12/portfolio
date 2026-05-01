@@ -15,7 +15,7 @@ const projects = [
   },
 ];
 
-const filters: Category[] = ["All", "Web", "AI", "Design"];
+const filters: Category[] = ["All", "Web"];
 
 const Projects = () => {
   const [filter, setFilter] = useState<Category>("All");
