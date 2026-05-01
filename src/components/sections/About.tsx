@@ -3,7 +3,7 @@ import portrait from "@/assets/hero-portrait.jpg";
 import SectionHeading from "@/components/SectionHeading";
 
 const stats = [
-  { label: "Projects", value: 1, suffix: "+" },
+  { label: "Projects", value: 4, suffix: "+" },
   { label: "Certificates", value: 2, suffix: "" },
   { label: "Learning", value: 99, suffix: "%" },
 ];
