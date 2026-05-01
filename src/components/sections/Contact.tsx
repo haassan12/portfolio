@@ -9,12 +9,31 @@ const Contact = () => {
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
+    const form = e.target as HTMLFormElement;
+    const data = new FormData(form);
+    const name = String(data.get("name") || "").trim();
+    const email = String(data.get("email") || "").trim();
+    const message = String(data.get("message") || "").trim();
+
+    if (!name || !email || !message) {
+      toast.error("Please fill all fields");
+      return;
+    }
+
     setSending(true);
+    const subject = `Portfolio transmission from ${name}`;
+    const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
+    const mailto = `mailto:haassan369@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailto;
+
     setTimeout(() => {
       setSending(false);
-      toast.success("Transmission sent", { description: "Signal received. I'll respond within 24h." });
-      (e.target as HTMLFormElement).reset();
-    }, 1200);
+      toast.success("Opening your mail app", {
+        description: "Finish sending from your email client.",
+      });
+      form.reset();
+    }, 800);
   };
 
   const fieldClass =
