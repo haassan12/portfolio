@@ -72,13 +72,13 @@ const Contact = () => {
             <div className="glass rounded-2xl p-6">
               <h3 className="font-display text-xl mb-2 gradient-text">Direct Link</h3>
               <p className="text-sm text-muted-foreground mb-5 font-mono">
-                Available for collaborations, freelance and AI-driven product builds.
+                Open to junior full-stack roles, internships, freelance and collaborative builds. Based in Kollam, Kerala.
               </p>
               <div className="space-y-3">
                 {[
-                  { icon: Mail, label: "hassan@ailab.dev", href: "mailto:hassan@ailab.dev" },
-                  { icon: Github, label: "github.com/hassan", href: "#" },
-                  { icon: Linkedin, label: "linkedin.com/in/hassan", href: "#" },
+                  { icon: Mail, label: "haassan369@gmail.com", href: "mailto:haassan369@gmail.com" },
+                  { icon: Github, label: "github.com/hassan", href: "https://github.com/" },
+                  { icon: Linkedin, label: "linkedin.com/in/hassan", href: "https://linkedin.com/" },
                 ].map(({ icon: Icon, label, href }) => (
                   <a
                     key={label}
@@ -95,7 +95,7 @@ const Contact = () => {
             <div className="glass rounded-2xl p-6 font-mono text-xs">
               <div className="flex justify-between mb-2"><span className="text-muted-foreground">STATUS</span><span className="text-primary">● AVAILABLE</span></div>
               <div className="flex justify-between mb-2"><span className="text-muted-foreground">RESPONSE</span><span>&lt; 24H</span></div>
-              <div className="flex justify-between"><span className="text-muted-foreground">TIMEZONE</span><span>UTC+05:00</span></div>
+              <div className="flex justify-between"><span className="text-muted-foreground">TIMEZONE</span><span>IST (UTC+05:30)</span></div>
             </div>
           </motion.aside>
         </div>

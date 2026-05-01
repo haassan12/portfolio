@@ -3,11 +3,12 @@ import { useEffect, useRef, useState } from "react";
 import SectionHeading from "@/components/SectionHeading";
 
 const logs = [
-  { year: "2024", text: "Initialized journey into Full Stack Development" },
-  { year: "2025", text: "Mastered Python, Django, React ecosystem" },
-  { year: "2025", text: "Shipped first production-grade web platform" },
-  { year: "2026", text: "Built autonomous AI agents and RAG systems" },
-  { year: "2026", text: "Engineering intelligent SaaS products" },
+  { year: "2022", text: "Completed Computer Science — SNHSS Chithara" },
+  { year: "2023", text: "Started BCA at PMSA Pookoya Thangal Memorial College" },
+  { year: "2025", text: "Graduated BCA — Bachelor of Computer Application" },
+  { year: "2025", text: "Certified: Python Full Stack Developer — Mashup Stack" },
+  { year: "2025", text: "Certified: Ethical Hacking Associate — RedTeam Hacker Academy" },
+  { year: "2025", text: "Built Smart Service Booking system with React + Django REST" },
 ];
 
 const TypeLine = ({ year, text, delay }: { year: string; text: string; delay: number }) => {

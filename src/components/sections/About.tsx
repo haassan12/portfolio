@@ -3,8 +3,8 @@ import portrait from "@/assets/hero-portrait.jpg";
 import SectionHeading from "@/components/SectionHeading";
 
 const stats = [
-  { label: "Projects", value: 24, suffix: "+" },
-  { label: "Skills", value: 18, suffix: "" },
+  { label: "Projects", value: 1, suffix: "+" },
+  { label: "Certificates", value: 2, suffix: "" },
   { label: "Learning", value: 99, suffix: "%" },
 ];
 
@@ -32,20 +32,22 @@ const About = () => {
 
           <div>
             <div className="flex flex-wrap items-center gap-3 mb-4">
-              <span className="font-mono text-xs text-primary border border-primary/40 px-2 py-0.5 rounded">@hassan_dev</span>
-              <span className="font-mono text-xs text-secondary border border-secondary/40 px-2 py-0.5 rounded">ROLE: ARCHITECT</span>
+              <span className="font-mono text-xs text-primary border border-primary/40 px-2 py-0.5 rounded">@muhammad_hassan</span>
+              <span className="font-mono text-xs text-secondary border border-secondary/40 px-2 py-0.5 rounded">ROLE: FULL STACK DEV</span>
               <span className="font-mono text-xs text-muted-foreground border border-border px-2 py-0.5 rounded flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" /> ACTIVE
               </span>
             </div>
             <h3 className="font-display text-2xl sm:text-3xl mb-3">
-              Engineering <span className="gradient-text">intelligent systems</span>
+              Building <span className="gradient-text">full-stack web systems</span>
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Passionate full-stack developer specializing in <span className="text-primary">Python</span>,{" "}
-              <span className="text-primary">Django</span>, <span className="text-primary">React</span>, and{" "}
-              <span className="text-secondary">AI systems</span>. I build intelligent, scalable, and visually
-              refined applications — from autonomous agents to production-grade web platforms.
+              BCA graduate and Python Full-Stack Web Developer based in{" "}
+              <span className="text-primary">Kollam, Kerala</span>. I build database-driven and API-based
+              applications using <span className="text-primary">React</span>,{" "}
+              <span className="text-primary">Django REST Framework</span>, and{" "}
+              <span className="text-secondary">MySQL</span> — with a working understanding of UI/UX
+              design through Figma.
             </p>
 
             <div className="grid grid-cols-3 gap-3">

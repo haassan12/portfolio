@@ -7,50 +7,15 @@ type Category = "All" | "Web" | "AI" | "Design";
 
 const projects = [
   {
-    title: "Neural Chat Engine",
-    desc: "Multi-agent LLM platform with RAG, vector search and streaming responses.",
-    tech: ["Python", "FastAPI", "LangChain", "React"],
-    category: "AI" as Category,
+    title: "Smart Service Booking & Management System",
+    desc: "Full-stack service booking platform with JWT auth and role-based access for Admins, Service Providers, and Customers. CRUD APIs, dashboards with search/filter/pagination, double-booking prevention, and a basic recommendation engine based on ratings.",
+    tech: ["React", "Django REST Framework", "Python", "MySQL", "Bootstrap", "JWT"],
+    category: "Web" as Category,
     gradient: "from-primary/40 via-secondary/30 to-transparent",
-  },
-  {
-    title: "OrbitDash Analytics",
-    desc: "Realtime SaaS dashboard with custom charting and team workspaces.",
-    tech: ["Next.js", "Postgres", "TypeScript"],
-    category: "Web" as Category,
-    gradient: "from-secondary/40 via-primary/30 to-transparent",
-  },
-  {
-    title: "Vision Classifier",
-    desc: "Computer vision model deployment with web inference UI.",
-    tech: ["PyTorch", "FastAPI", "React"],
-    category: "AI" as Category,
-    gradient: "from-primary/50 to-secondary/30",
-  },
-  {
-    title: "Quantum Folio",
-    desc: "Cinematic studio website with WebGL hero and CMS integration.",
-    tech: ["Three.js", "Framer Motion", "Sanity"],
-    category: "Design" as Category,
-    gradient: "from-secondary/50 to-primary/30",
-  },
-  {
-    title: "Django Commerce",
-    desc: "Full e-commerce platform with Stripe payments and admin tools.",
-    tech: ["Django", "Postgres", "Stripe"],
-    category: "Web" as Category,
-    gradient: "from-primary/40 to-secondary/40",
-  },
-  {
-    title: "Agent Lab UI",
-    desc: "Visual builder for autonomous AI agent workflows and tool routing.",
-    tech: ["React", "TypeScript", "WebSockets"],
-    category: "AI" as Category,
-    gradient: "from-secondary/40 to-primary/40",
   },
 ];
 
-const filters: Category[] = ["All", "Web", "AI", "Design"];
+const filters: Category[] = ["All", "Web"];
 
 const Projects = () => {
   const [filter, setFilter] = useState<Category>("All");
