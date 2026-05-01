@@ -72,7 +72,7 @@ const Contact = () => {
             <div className="glass rounded-2xl p-6">
               <h3 className="font-display text-xl mb-2 gradient-text">Direct Link</h3>
               <p className="text-sm text-muted-foreground mb-5 font-mono">
-                Available for collaborations, freelance and AI-driven product builds.
+                Open to junior full-stack roles, internships, freelance and collaborative builds. Based in Kollam, Kerala.
               </p>
               <div className="space-y-3">
                 {[
