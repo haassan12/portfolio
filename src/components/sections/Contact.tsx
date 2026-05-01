@@ -95,7 +95,7 @@ const Contact = () => {
             <div className="glass rounded-2xl p-6 font-mono text-xs">
               <div className="flex justify-between mb-2"><span className="text-muted-foreground">STATUS</span><span className="text-primary">● AVAILABLE</span></div>
               <div className="flex justify-between mb-2"><span className="text-muted-foreground">RESPONSE</span><span>&lt; 24H</span></div>
-              <div className="flex justify-between"><span className="text-muted-foreground">TIMEZONE</span><span>UTC+05:00</span></div>
+              <div className="flex justify-between"><span className="text-muted-foreground">TIMEZONE</span><span>IST (UTC+05:30)</span></div>
             </div>
           </motion.aside>
         </div>
