@@ -10,7 +10,7 @@ const stats = [
 
 const About = () => {
   return (
-    <section id="about" className="relative py-24 px-4">
+    <section id="about" className="relative py-16 sm:py-24 px-4 sm:px-6">
       <div className="container max-w-6xl mx-auto">
         <SectionHeading code="02" title="AI Profile Panel" subtitle="Identity registry" />
 

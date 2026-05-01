@@ -40,7 +40,7 @@ const Contact = () => {
     "w-full bg-background/40 border border-border rounded-lg px-4 py-3 font-mono text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:border-primary focus:shadow-glow-soft transition-all";
 
   return (
-    <section id="contact" className="relative py-24 px-4">
+    <section id="contact" className="relative py-16 sm:py-24 px-4 sm:px-6">
       <div className="container max-w-5xl mx-auto">
         <SectionHeading code="06" title="Control Panel" subtitle="Open transmission" />
 
