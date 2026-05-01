@@ -76,9 +76,9 @@ const Contact = () => {
               </p>
               <div className="space-y-3">
                 {[
-                  { icon: Mail, label: "hassan@ailab.dev", href: "mailto:hassan@ailab.dev" },
-                  { icon: Github, label: "github.com/hassan", href: "#" },
-                  { icon: Linkedin, label: "linkedin.com/in/hassan", href: "#" },
+                  { icon: Mail, label: "haassan369@gmail.com", href: "mailto:haassan369@gmail.com" },
+                  { icon: Github, label: "github.com/hassan", href: "https://github.com/" },
+                  { icon: Linkedin, label: "linkedin.com/in/hassan", href: "https://linkedin.com/" },
                 ].map(({ icon: Icon, label, href }) => (
                   <a
                     key={label}
