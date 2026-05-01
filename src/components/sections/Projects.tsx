@@ -13,9 +13,23 @@ const projects = [
     category: "Web" as Category,
     gradient: "from-primary/40 via-secondary/30 to-transparent",
   },
+  {
+    title: "J.A.R.V.I.S — Iron Man Gesture Control",
+    desc: "Real-time hand gesture control system with a sci-fi HUD overlay. Uses webcam + MediaPipe to detect gestures (pinch, swipe, fist, point) and maps them to OS actions: mouse control, Chrome tab switching, scroll, and app launching. Neon skeleton overlay with rotating arc rings and scan-line FX.",
+    tech: ["Python", "OpenCV", "MediaPipe", "PyAutoGUI", "NumPy"],
+    category: "AI" as Category,
+    gradient: "from-secondary/40 via-accent/30 to-transparent",
+  },
+  {
+    title: "Gaming Hub Website",
+    desc: "Gaming community launch site with user registration, browseable game listings, and a Django REST backend. Includes auth flows, admin dashboard, static asset pipeline, and deployment-ready Procfile setup for production hosting.",
+    tech: ["Django", "Python", "SQLite", "HTML/CSS", "JavaScript"],
+    category: "Web" as Category,
+    gradient: "from-accent/40 via-primary/30 to-transparent",
+  },
 ];
 
-const filters: Category[] = ["All", "Web"];
+const filters: Category[] = ["All", "Web", "AI"];
 
 const Projects = () => {
   const [filter, setFilter] = useState<Category>("All");
