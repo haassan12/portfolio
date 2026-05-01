@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 
 type Category = "All" | "Web" | "AI" | "Design";
@@ -12,6 +12,7 @@ const projects = [
     tech: ["React", "Django REST Framework", "Python", "MySQL", "Bootstrap", "JWT"],
     category: "Web" as Category,
     gradient: "from-primary/40 via-secondary/30 to-transparent",
+    repo: "https://github.com/haassan12/booking-.git",
   },
   {
     title: "J.A.R.V.I.S — Iron Man Gesture Control",
@@ -19,6 +20,7 @@ const projects = [
     tech: ["Python", "OpenCV", "MediaPipe", "PyAutoGUI", "NumPy"],
     category: "AI" as Category,
     gradient: "from-secondary/40 via-accent/30 to-transparent",
+    repo: "https://github.com/haassan12/hand-guster-.git",
   },
   {
     title: "Gaming Hub Website",
@@ -26,6 +28,15 @@ const projects = [
     tech: ["Django", "Python", "SQLite", "HTML/CSS", "JavaScript"],
     category: "Web" as Category,
     gradient: "from-accent/40 via-primary/30 to-transparent",
+    repo: "https://github.com/haassan12/gaming-hub-website.git",
+  },
+  {
+    title: "Child Safety System",
+    desc: "Safety-focused application designed to monitor and protect children online and in real environments. Implements alerting, activity tracking, and guardian dashboards with secure authentication and role-based access control.",
+    tech: ["Python", "Django", "SQLite", "HTML/CSS", "JavaScript"],
+    category: "AI" as Category,
+    gradient: "from-primary/40 via-accent/30 to-transparent",
+    repo: "https://github.com/haassan12/child-safety.git",
   },
 ];
 
@@ -98,11 +109,13 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-2">
-                  <a href="#" className="flex-1 glass-strong hover:border-primary/60 transition-colors px-3 py-2 rounded-lg font-mono text-xs flex items-center justify-center gap-1.5 text-primary">
-                    <ExternalLink className="w-3.5 h-3.5" /> Live
-                  </a>
-                  <a href="#" className="flex-1 glass-strong hover:border-secondary/60 transition-colors px-3 py-2 rounded-lg font-mono text-xs flex items-center justify-center gap-1.5 text-secondary">
-                    <Github className="w-3.5 h-3.5" /> Code
+                  <a
+                    href={p.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 glass-strong hover:border-secondary/60 transition-colors px-3 py-2 rounded-lg font-mono text-xs flex items-center justify-center gap-1.5 text-secondary"
+                  >
+                    <Github className="w-3.5 h-3.5" /> View Code
                   </a>
                 </div>
               </div>
