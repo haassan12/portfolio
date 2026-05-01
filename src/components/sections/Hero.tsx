@@ -63,8 +63,8 @@ const Hero = () => {
               <span className="gradient-text glitch inline-block">Muhammad Hassan</span>
             </h1>
             <p className="font-mono text-base sm:text-lg text-muted-foreground mb-8">
-              <span className="text-primary">&gt;</span> Full Stack Developer{" "}
-              <span className="text-secondary mx-2">|</span> AI Systems Builder
+              <span className="text-primary">&gt;</span> Python Full Stack Developer{" "}
+              <span className="text-secondary mx-2">|</span> React + Django
             </p>
 
             <div className="flex flex-wrap gap-4">
